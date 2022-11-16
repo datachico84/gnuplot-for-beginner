@@ -31,3 +31,17 @@ some content.
 Plotando a expressão $$x^2 + 1$$
     
     gnuplot> plot (x**2 + 1)
+
+## Plot de Gráficos Sobrepostos
+
+Vamos plotar os gráficos das funções
+
+$$x^2 + x + 1$$ 
+
+e 
+
+$$x + 2$$
+
+em uma mesma janela.
+
+    gnuplot> plot (x**2 + x + 1), (x + 2)
