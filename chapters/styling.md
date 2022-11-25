@@ -20,7 +20,22 @@ ou
 
     set xrange [-pi : pi]
     set key at graph 0.3, 0.6
-    set title "Sine Wave"
+    set title "Onda Senoidal"
     plot sin(x) lw 3
+
+## Alterando Título das Legendas
+
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    set title "Onda Senoidal"
+    plot sin(x) lw 3 title "Seno de x"
+
+## Linhas de Grade
+
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    set title "Onda Senoidal"
+    set grid
+    plot sin(x) lw 3 title "Seno de x"
 
 ## 
