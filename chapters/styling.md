@@ -38,4 +38,19 @@ ou
     set grid
     plot sin(x) lw 3 title "Seno de x"
 
-## 
+## Tipos de Linha
+
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    set title "Onda Senoidal"
+    set grid lt 1 lc rgb "green"
+    plot sin(x) lw 3 title "Seno de x"
+    
+## Gráficos Monocromáticos
+    
+    set monochrome
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    set title "Onda Senoidal"
+    set grid
+    plot sin(x) lw 3 title "Seno de x"
