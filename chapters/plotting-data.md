@@ -13,3 +13,5 @@
     set ytics nomirror
     plot sin(x) axis x1y1 lw 3 title "Seno de x", \
         "parabola.dat" axis x1y2 title "Dados da Par"
+
+##  
