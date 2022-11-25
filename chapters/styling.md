@@ -1,0 +1,26 @@
+# Estilizando Gráficos
+
+## Largura das linhas
+    
+    set xrange [-pi : pi]
+    plot sin(x) lw 3
+  
+## Posicionando as Legendas
+    
+    set xrange [-pi : pi]
+    set key botton right
+    plot sin(x) lw 3
+ou
+
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    plot sin(x) lw 3
+    
+## Definindo Títulos
+
+    set xrange [-pi : pi]
+    set key at graph 0.3, 0.6
+    set title "Sine Wave"
+    plot sin(x) lw 3
+
+## 
